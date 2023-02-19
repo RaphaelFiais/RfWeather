@@ -32,7 +32,7 @@ const Home = () => {
         <Container listOpen={listOpen}>
                 <div className='infoClima'>
                     <h1>Bem vindo ao consultor de Clima</h1>
-                    <p>Aqui vc encontra a temperatura da localidade desejada , clima e muito mais</p>
+                    <p>Consulte a previsão do dia na sua cidade!!</p>
                     <form onSubmit={getSearch} className="form">
                         <Input onClick={() => setListOpen(true)} borderOpen={city} type="text" onChange={(e) => setSearch(e.target.value)} value={search} placeholder="Digite o nome da sua cidade" />
                         <button type='submit'> <BsSearch /></button>                        

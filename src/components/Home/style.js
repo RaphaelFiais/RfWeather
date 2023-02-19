@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import img from '../../assets/ondas.jpg'
+import img from '../../assets/ondas2.jpg'
 
 export const Container = styled.section`
     width: 100vw;
